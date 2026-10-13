@@ -40,8 +40,6 @@ document.addEventListener("pointermove", function(event) {
 // ⭐ PRÓXIMA TELA — COM AVISO DE TESTE
 
 function irParaTela3() {
-    alert("O botão está funcionando!");
-
     document.getElementById("tela2").style.display = "none";
     document.getElementById("tela3").style.display = "block";
 }
